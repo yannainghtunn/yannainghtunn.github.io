@@ -2,7 +2,7 @@ import { motion }  from "framer-motion";
 import Logo from "../../../assets/pf.jpg";
 export default function PfBox() {
   return (
-    <div className="w-4/5 md:w-full h-[350px] md:h-3/4 relative border-box my-auto mx-auto overflow-visible">
+    <div className="w-4/5 max-w-[300px] max-h-[350px] md:w-full h-[350px] md:h-3/4 relative border-box my-auto mx-auto overflow-visible">
     <div className='flex items-center flex-col justify-center w-full h-full bg-[#ffe714]  bg-opacity-10 rounded-tr-[30px] rounded-bl-[100px] border-[#00000000] border-opacity-40 border-2 text-white rounded-full'>
         <img src={Logo} className="w-32 h-32 md:w-40 md:h-40 rounded-full border-white border-2 shadow-md shadow-[#666666]"/>
         <p className="text-center mt-4 font-bold">Yan Naing Htun</p>
